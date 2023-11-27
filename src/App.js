@@ -24,20 +24,20 @@ function App() {
 
         <div className="App">
             <div className="section-a" style={{
-                backgroundImage: `url('/bg.jpg')`,
+                backgroundImage: `url('./bg.jpg')`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover"
             }}>
                 <div className="logo">
-                    <span>SMART FARM</span><span id='dot'>.</span>
+                    <span>ARIHAN SINHA</span><span id='dot'>.</span>
                 </div>
                 <div className="content">
                     <div className="intro-box">
                         <div className="intro">
-                            WELCOME TO SMART FARM <br />
+                            Lorem ipsum dolor sit.<br />
                             <div className="text-wel">
                                 <h1 id='quote'>
-                                    " We Predict Future "
+                                    " Lorem, ipsum dolor. "
                                 </h1>
                             </div>
                         </div>

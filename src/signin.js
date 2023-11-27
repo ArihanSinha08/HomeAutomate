@@ -70,14 +70,12 @@ export default function SignIn() {
         <>
         <script src="https://apis.google.com/js/platform.js"></script>
         <div className="section-b" style={{
-            backgroundImage: `url('/bg.jpg')`,
+            backgroundImage: `url('./bg.jpg')`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
 
         }}>
-            <div className="logo">
-                <span>SMART FARM</span><span id='dot'>.</span>
-            </div>
+            <div className="logo"></div>
             <div className="section-ba">
 
                 <div className="white">
@@ -136,11 +134,6 @@ export default function SignIn() {
                                         Sign In
                                     </Button>
                                     <Grid container>
-                                        <Grid item xs>
-                                            <Link href="?" variant="body2">
-                                                Forgot password?
-                                            </Link>
-                                        </Grid>
                                         <Grid item>
                                             <Link href='/signup' variant="body2">
                                                 {"Don't have an account? Sign Up"}

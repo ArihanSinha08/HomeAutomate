@@ -67,9 +67,7 @@ export default function SignUp() {
       backgroundSize: "cover"
 
   }}>
-      <div className="logo">
-          <span>SMART FARM</span><span id='dot'>.</span>
-      </div>
+      <div className="logo"></div>
   <div className="section-ba">
       
       <div className="white">
@@ -166,7 +164,7 @@ export default function SignUp() {
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="/signin" variant="body2">
                   Already have an account? Sign in
                 </Link>
               </Grid>
